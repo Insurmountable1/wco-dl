@@ -47,7 +47,7 @@ class Lifter(object):
         self.header = {
             'User-Agent': self.user_agent, 'Accept': '*/*', 'Referer': url, 'X-Requested-With': 'XMLHttpRequest'
         }
-        self.base_url = "https://wcostream.tv"
+        self.base_url = "https://wco.tv"
         self.path = os.path.dirname(os.path.realpath(__file__))
 
         # Check if the URL is valid
